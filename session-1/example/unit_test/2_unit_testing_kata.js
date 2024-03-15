@@ -6,9 +6,26 @@
 
 
 function fizzBuzz(number) {
-   
+
+    if(number % 3 === 0 && number % 5 === 0){
+        return "FizzBuzz"
+    }
+
+    if(number % 3 === 0){
+        return "Fizz"
+    }
+
+    if(number % 5 === 0){
+        return "Buzz"
+    }
   
     return number;
   }
+
+  //fizzBuzz(1) --> 1
+  //fizzBuzz(3) --> Fizz
+  //fizzBuzz(5) --> Buzz
+  //fizzBuzz(15) --> FizzBuzz
+
 
   export default fizzBuzz;

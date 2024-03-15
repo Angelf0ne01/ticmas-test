@@ -1,6 +1,5 @@
 Tipos de test
 
-Hay muchos tipos de tests (
 Unit testing
 Integration testing
 Mutant testing
@@ -8,7 +7,6 @@ Acceptance testing (e2e)
 Black box testing
 Stress testing
 Property-based testing
-Stress Testing
 Compatibility Testing
 Security Testing
 Load Testing
