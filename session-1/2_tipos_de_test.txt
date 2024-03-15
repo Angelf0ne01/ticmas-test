@@ -1,0 +1,39 @@
+Tipos de test
+
+Hay muchos tipos de tests (
+Unit testing
+Integration testing
+Mutant testing
+Acceptance testing (e2e)
+Black box testing
+Stress testing
+Property-based testing
+Stress Testing
+Compatibility Testing
+Security Testing
+Load Testing
+... mucho mas
+
+
+Centrar:
+
+Unit testing
+Integration testing
+Acceptance testing
+
+Piramide de test:
+https://medium.com/nicasource/qu%C3%A9-es-la-pir%C3%A1mide-de-pruebas-6ac4356c963f
+
+kata:
+https://kata-log.rocks/fizz-buzz-kata
+
+Como escribir test utilizando el las triple AAA (Arrange/Act/Assert)
+
+Arrange/Act/Assert (AAA) es un patrón para organizar y formatear código en métodos de prueba unitaria.
+
+Se recomienda crear pruebas de una forma más natural y cómoda. La idea es desarrollar una prueba unitaria siguiendo estos 3 sencillos pasos:
+
+Arrange : configurar los objetos de prueba y preparar los requisitos previos para su prueba.
+
+Act : realizar el trabajo real de la prueba.
+Afirmar : verificar el resultado

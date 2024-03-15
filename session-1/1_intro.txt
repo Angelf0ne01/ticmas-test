@@ -1,0 +1,21 @@
+
+Éste es un claro ejemplo de que si no tenemos un test que nos asegure que pasa en casos inválidos podemos encontrarnos con graves problemas en producción, más aún si estamos trabajando con un lenguaje que no esté fuertemente tipado como ocurre con Javascript
+
+
+Testing
+
+Los tests nos permiten automatizar conjuntos de pruebas sobre nuestro código que nos aseguren que se comportará como nosotros esperamos tanto en flujos válidos como inválidos. Estas pruebas podremos realizarlas tanto a casos de uso concretos para ver que la lógica interna se ejecuta correctamente (Unit Test) como a los puntos de entrada tal y como lo haría un cliente para verificar que se recibe la respuesta esperada sin reparar en lo que suceda internamente (Acceptance test)
+
+
+Por supuesto el hecho de preparar toda nuestra suite de tests sólo tiene sentido si estos se ejecutan y en este sentido cobra gran importancia las pipelines en herramientas de Integración Continua (Jenkins, Travis, GitlabCI, Github Actions…), es decir, pasos que van a ejecutarse antes de desplegar nuestro código. Añadir nuestra suite de tests a esta pipeline nos permitiría asegurarnos de que el código que vamos a desplegar va a funcionar correctamente
+
+
+¿Por qué?
+
+✅ Evidencia empírica de que el software funciona como esperamos
+👷‍♀️ Reproducir fácilmente casos complejos
+🐛 Evitar bugs (Economía del software)
+🙏 Refactorizar y añadir funcionalidades en paz
+🚀 Automatización (habilita CI)
+Explorar funcionalidades
+
